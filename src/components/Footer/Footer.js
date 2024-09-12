@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import Social from '../Social/Social';
- import Contact from '../Contact/Contact';
- 
+import Social from "../Social/Social";
+import Contact from "../Contact/Contact";
+
 function Footer() {
   return (
     <div id="Footer-wrapper">
-        <Social/>
-        <Contact/>
+      <Social />
+      <Contact />
       Footer
-         </div>
+      <h1>tttt</h1>
+    </div>
   );
 }
 

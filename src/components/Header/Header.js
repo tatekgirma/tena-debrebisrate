@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
+import "./Header.scss";
 
-import Heropic from '../../assets/Image.png'
+import Heropic from "../../assets/Image.png";
 function Header() {
   return (
     <div className="Header">
-    
- <h1>THe Emahus Walk</h1>
-<img  src={Heropic} alt="" width="200" />
-    
+      <h1>
+        THe Emahus <strong>Walk </strong>
+      </h1>
+      <img src={Heropic} alt="" width="200" />
     </div>
-  )
+  );
 }
 
 export default Header;
